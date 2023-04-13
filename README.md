@@ -6,6 +6,12 @@
 
 [![CI](https://github.com/emacs-openai/deepl/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-openai/deepl/actions/workflows/test.yml)
 
+The DeepL Elisp library provides convenient access to the DeepL API from
+applications written in the Elips language. 
+
+*P.S. This package is expected to be used as a library, so there are only a few
+interactable commands you can use, and those are mostly examples.*
+
 ## 📚 Documentation
 
 - [DeepL API docs](https://www.deepl.com/pro-api?cta=header-pro-api/)
@@ -15,11 +21,12 @@
 
 - [🔨 Usage](#🔨-usage)
   - [🔰 Example](#🔰-example)
+- [🛑 Debugging](#🛑-debugging)
+- [📂 Example projects](#📂-example-projects)
 - [🔗 References](#🔗-references)
 - [Contribute](#contribute)
 
 <!-- markdown-toc end -->
-
 
 ## 🔨 Usage
 
@@ -31,7 +38,7 @@ You will need to set up your API key before you can use this library.
 
 Alternatively, you can configure a function to retrieve the key from some
 external source. A function, `deepl-key-auth-source` is provided to retrieve
-the key from an auth-source entry under the `:host` key `api.openai.com`
+the key from an auth-source entry under the `:host` key `api.deepl.com`
 
 ```elisp
 (setq deepl-key #deepl-key-auth-source)
@@ -53,6 +60,21 @@ a function with a `text`, `target-lang` and a `callback` function.
                  (lambda (data)
                    (message "%s" data)))
 ```
+
+## 🛑 Debugging
+
+While playing through this library, you might see this error quite often.
+
+```
+400 - Bad request.  Please check error message and your parameters
+```
+
+Try setting the variable `deepl--show-log` to `t`, it will show more error
+messages.
+
+## 📂 Example projects
+
+- N/A
 
 ## 🔗 References
 
