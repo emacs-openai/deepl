@@ -5,7 +5,7 @@
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; Maintainer: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; URL: https://github.com/emacs-openai/deepl
-;; Version: 0.0.1
+;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1") (request "0.3.0"))
 ;; Keywords: comm deepl
 
