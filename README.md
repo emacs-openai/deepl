@@ -19,12 +19,16 @@ interactable commands you can use, and those are mostly examples.*
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [🔨 Usage](#🔨-usage)
-  - [🔰 Example](#🔰-example)
-- [🛑 Debugging](#🛑-debugging)
-- [📂 Example projects](#📂-example-projects)
-- [🔗 References](#🔗-references)
-- [Contribute](#contribute)
+- [deepl](#deepl)
+  - [📚 Documentation](#📚-documentation)
+  - [🔨 Usage](#🔨-usage)
+    - [🔰 Example](#🔰-example)
+  - [🛑 Debugging](#🛑-debugging)
+  - [📂 Example projects](#📂-example-projects)
+  - [🔗 References](#🔗-references)
+  - [🛠️ Contribute](#🛠️-contribute)
+    - [🔬 Development](#🔬-development)
+  - [⚜️ License](#⚜️-license)
 
 <!-- markdown-toc end -->
 
