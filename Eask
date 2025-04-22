@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "deepl"
          "0.1.0"
          "Elisp library for the DeepL API")
